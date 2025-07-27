@@ -108,13 +108,15 @@ border-radius: 4px;
     width: 175px;
     height: 53px;
 background: #02897a;
-margin-left:50%;}
+margin-left:50%;
+margin-bottom: 50px;}
 .eff-title {font-weight: 700;
     font-size: 32px;
     color: #22343d;
 
 }
-.management .container{display: flex;}
+.management .container{display: flex;
+margin-bottom: 50px;}
 .eff-list {}
 
 .eff-subtitle {font-weight: 600;
@@ -133,4 +135,87 @@ margin-left:50%;}
     
    .customer-list {}
     
-        .customer-list-item {}
+.customer-list-item {}
+.collaborative-wrap {display: flex;
+}
+.Collaborative-main-text {font-weight: 400 
+line-height: 1.62;
+color: #22343d;
+padding: 0 8;
+}
+.collaborative-subtitle {font-weight: 600;
+font-size: 16px;
+}
+.collaborative-title {font-weight: 700;
+font-size: 32px;
+}
+.collaboration-list {
+}
+.collaboration-list-item {}
+.collaboration-list-item-text{font-weight:600;}
+.process .container {width: 956px;
+}
+.process-title {    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+.process-text {    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.62;
+    text-align: center;
+    color: #22343d;
+    max-width: 542px;
+    margin: 0 auto;
+}
+.process-list {    display: flex;
+    gap: 31px 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.process-list-item {    display: flex;
+    align-items: center;
+    gap: 19px;
+    width: calc((100% - 100px) / 2);
+}
+.process-btn{    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #02897a;
+    border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    display: block;
+    margin: 0 auto;}
+.strategy .container{ width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;}
+.strategy-title {    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+.strategy-text {    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    margin-bottom: 40px;
+}
+.strategy-list {    display: flex;
+    gap: 30px;
+}
+.strategy-list-item {    border-radius: 8px;
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dedede;
+}
+.strategy-item-autor {padding: 24px 27px 40px;
+}
+.strategy-author {    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+.autor {    font-weight: 700;
+}
+.strategy-green {color: #02897a;
+}
