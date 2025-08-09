@@ -43,9 +43,14 @@
                             experience.</p>
                             
                         <button class="hero-bt"type="button">Get started</button>
-                        <button class="hero-bt2"type="button">Watch the Video</button>
+                        <div class="hero-icon-bt">
+                            <svg class="icon icon-Triangle"width="16" height="18">
+                                <use href="./images/icon.svg#icon-Triangle"></use>
+                            </svg>
+                            <button class="hero-bt2"type="button">Watch the Video</button>
+                        </div>
                     </div>
-                    <img src="./images/hero-img.jpg" alt="hero-img">
+                    <img src="./images/hero-img.png" alt="hero-img">
                     </div>
                 </section>
                 <section class="product">
@@ -110,7 +115,7 @@
                                 </li>
                              </ul>
                     </div>
-                        <img src="./images/management-img.jpg" alt="management-img"/>
+                        <img src="./images/management-img.png" alt="management-img"/>
                 </div>
             
             </section>
@@ -135,7 +140,7 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="./images/support-img.jpg" alt="support-img"/>
+                    <img src="./images/support-img.png" alt="support-img"/>
                 </div>
             </section>
             <section class="collaborative">
@@ -439,41 +444,80 @@
 
 <footer class="footer">
     <div class="footer-container">
-        <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
-        <div class="resource">
-            <p class="resource-title">Resource</p>
-            <ul class="resource-list">
-                <li class="resource-list-item"><a href="">About Us</a></li>
-                <li class="resource-list-item"><a href=""> Blog </a></li>
-                <li class="resource-list-item"><a href="">Contact</a></li>
-                <li class="resource-list-item"><a href="">FAQ</a></li>
+        <div class="foot-logo-social-links-container">
+            <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" width="39px" height="36px" />Product</a>
+            <ul class="foot-social-list">
+                    <li class=".foot-social-list-item">
+                    <svg class="icon-footer-inst" width="24" height="24">
+                        <use href="./images/icon.svg#icon-instagram"></use>
+                    </svg>
+                    </li>
+                    <li class=".foot-social-list-item">
+                    <svg class="icon-footer-fb" width="24" height="24">
+                        <use href="./images/icon.svg#icon-Vector-1"></use>
+                    </svg>
+                    </li>
+                    <li class=".foot-social-list-item">
+                    <svg class="icon-footer-tw" width="24" height="24">
+                        <use href="./images/icon.svg#icon-Vector-3"></use>
+                    </svg>
+                    </li>
             </ul>
         </div>
-        <div class="legal">
-            <p class="legal-title">Legal Stuff</p>
-            <ul class="legal-list">
-                <li class="legal-list-item"><a href="">Disclaimer</a></li>
-                <li class="legal-list-item"><a href="">Financing</a></li>
-                <li class="legal-list-item"><a href="">Privacy Policy</a></li>
-            </ul>
-        </div>
-        <div class="knowing">
-            <p>knowing you're always on the best energy deal.</p>
-            <form>
-                <label for="user-tel"></label>
-                <div class="footer-input-svg">
-                    <svg class="icon-footer" width="19" height="18">
+        <nav class="foot-nav">
+            <div class="foot-nav-container">
+                <p class="foot-nav-title">Resource</p>
+                <ul class="foot-nav-list">
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">About Us</a>
+                    </li>
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">Blog</a>
+                    </li>
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">Contact</a>
+                    </li>
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot-nav-container">
+                <p class="foot-nav-title">Legal Stuff</p>
+                <ul class="foot-nav-list">
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">Disclaimer</a>
+                    </li>
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">Financing</a>
+                    </li>
+                    <li class="foot-nav-list-item">
+                        <a class="foot-nav-link" href="">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="foot-input-container">
+            <p class="foot-input-title">
+                knowing you're always on the best energy deal.
+            </p>
+        
+            <form class="foot-form-container">
+                <label for="phone">
+                    <div class="foot-input-container">
+                        <input id="phone" class="foot-input" type="tel" placeholder="Enter your phone number" name="user-tel"
+                            required />
+                        <svg class="icon-footer-phone" width="24" height="24">
                         <use href="./images/icon.svg#icon-Vector-4"></use>
                     </svg>
-                    <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" />
-                </div>
-                <button class="footer-bt" type="submit">Sign up Now</button>
+                    </div>
+                </label>
+                <button class="foot-btn" type="submit">Sign up Now</button>
             </form>
         </div>
-    </div>
-    <h4 class="made">Made With Love By Figmaland All Right Reserved</h4>
-</footer>
-
-</body>
-
-</html>
+        </div>
+        <p>Made With Love By Figmaland All Right Reserved</p>
+        </footer>
+        </body>
+        
+        </html>
