@@ -290,26 +290,40 @@ button {
 .blue-wrap {
   background-color: #4d8dff;
 }
-.Collaborative-main-text {
+.collaborative {
+  padding: 50px 0 75px;
+}
+.collaborative-wrap {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+}
+.collaborative-main-text {
   font-weight: 400;
   line-height: 1.62;
   color: #22343d;
   padding: 0 8;
 }
 .collaborative-subtitle {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  color: #22343d;
+  margin-bottom: 8px;
 }
 .collaborative-title {
   font-weight: 700;
   font-size: 32px;
+  margin-bottom: 25px;
 }
 .collaboration-list {
 }
 .collaboration-list-item {
+  margin-bottom: 30px;
 }
 .collaboration-list-item-text {
   font-weight: 600;
+  margin-bottom: 8px;
 }
 .process .container {
   width: 956px;
@@ -353,11 +367,18 @@ button {
   height: 53px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 100px;
+}
+.process-btn:hover {
+  background-color: #bcd0e5;
+  border-color: transparent;
+  transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .strategy .container {
   width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 171px;
 }
 .strategy-title {
   font-weight: 700;
@@ -395,8 +416,10 @@ button {
   color: #02897a;
 }
 
-.pricing {
-  padding: 21px 0 50px;
+.pricing.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .price-title {
@@ -424,7 +447,6 @@ button {
 .price-item {
   border-radius: 8px;
   width: 322px;
-  height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
   width: calc((100% - 72px * 2) / 3);
@@ -441,16 +463,13 @@ button {
   font-weight: 700;
   font-size: 24px;
   color: #22343d;
-  /* line-height: 40px; */
-  line-height: 1.66667;
+  line-height: 1.67;
 }
 
 .price-item-title-descr {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #22343d;
-  /* line-height: 40px; */
   line-height: 2.5;
   color: #22343d;
 }
@@ -460,7 +479,6 @@ button {
   font-weight: 700;
   font-size: 76px;
   color: #02897a;
-  /* line-height: 100px; */
   line-height: 1.31579;
   letter-spacing: 0em;
   text-align: center;
@@ -475,7 +493,6 @@ button {
   font-weight: 700;
   font-size: 24px;
   color: #02897a;
-  /* line-height: 30px; */
   line-height: 1.25;
   letter-spacing: 0em;
 }
@@ -485,7 +502,6 @@ button {
   font-weight: 400;
   font-size: 16px;
   color: #22343d;
-  /* line-height: 19px; */
   line-height: 1.1875;
   letter-spacing: 0.01em;
   color: #e0e0e0;
@@ -498,8 +514,6 @@ button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 22px; */
   line-height: 1.375;
   letter-spacing: 0.01em;
 }
@@ -540,9 +554,10 @@ button {
 .standart-btn {
   color: #02897a;
   background: #fff;
-  margin-bottom: 89px;
+  margin top:30px;
 }
-
+.price-btn {
+}
 .feedback-title {
   font-weight: 700;
   font-size: 32px;
@@ -566,6 +581,10 @@ button {
   justify-content: center;
   margin-bottom: 100px;
 }
+.icon-feedback-tr{stroke:#f3cd03;}
+.icon-feedback{fill: #f3cd03;}
+.feedback-list-item-icon{display: flex;
+gap: 3px;}
 .feedback-title-text-container {
   display: flex;
   flex-direction: column;
@@ -578,7 +597,7 @@ button {
 }
 .feedback-list-item {
   max-width: 327px;
-  max-height: 240px;
+  min-height: 240px;
   border: 1px solid #dedede;
   border-radius: 5px;
   padding: 28px 26px;
@@ -712,3 +731,4 @@ button {
   color: #22343d;
   text-align: center;
 }
+.icon-footer{fill:#02897a;}
