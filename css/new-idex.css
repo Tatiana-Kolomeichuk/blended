@@ -471,6 +471,7 @@ button {
   display: flex;
   flex-direction: column-reverse;
   gap: 50px;
+  margin-top: 100px;
 }
 .collaborative-main-text {
   font-weight: 400;
